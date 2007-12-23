@@ -1,0 +1,22 @@
+/**
+* $Id: module.css,v 1.2 2007/09/28 18:51:14 marcan Exp $
+* Module: SmartFAQ
+* Author: marcan <marcan@notrevie.ca>
+* Licence: GNU
+*/
+
+.smartbilling_headertable {padding: 0; margin: 0; border-bottom: 1px solid; margin-bottom: 10px;}
+.smartbilling_modulename {font-size: 0.8em; text-align: left; font-weight: bold; padding-right: 0.3em;	line-height: 18px;}
+.smartbilling_breadcrumb {font-size: 0.8em; line-height: 18px;}
+.smartbilling_adminlinks {padding-top: 15px; padding-bottom: 5px; font-size: 0.8em; text-align: center; line-height: 18px;}
+
+.smartbilling_small {font-size: 0.85em;}
+#smartbilling_class h2{padding-bottom:0px; margin-bottom: 0px;}
+p.smartbilling_small {padding-top:0px; margin-top:0px;}
+#class_details p {padding: 0px; padding-botton: 2px; margin: 0px;}
+
+#class_details {padding-bottom: 15px;}
+#smartbilling_class_print_and_mail {padding-top: 5px;}
+#smartbilling_register_form {border: 2px solid #000; width: 500px; margin: 0px; padding: 6px; margin: auto;}
+#smartbilling_register_form h3 {margin : 0px; margin-bottom: 7px;}
+#smartbilling_register_button {margin-top: 5px;}

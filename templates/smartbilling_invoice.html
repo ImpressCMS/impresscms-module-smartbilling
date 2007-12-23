@@ -1,0 +1,18 @@
+<{includeq file='db:smartbilling_header.html'}>
+
+<{if $smartbilling_invoices}>
+	<h2><{$smarty.const._MD_SBILLING_INVOICE_MYINVOICES}></h2>
+	
+	<div><{$smartbilling_invoices}></div>
+<{/if}>
+
+<{if $smartbilling_invoice_single_view}>
+	<h2><{$smarty.const._MD_SBILLING_INVOICE_SINGLEVIEW_INFORMATION}></h2>
+	<{$smartbilling_invoice_single_view}>
+	<br />
+	<h2><{$smarty.const._MD_SBILLING_INVOICE_SINGLEVIEW_PAYMENTS}></h2>
+	<{$smartbilling_payments}>
+<{/if}>
+
+<{includeq file='db:smartbilling_footer.html'}>
+<{includeq file='db:system_notification_select.html'}>

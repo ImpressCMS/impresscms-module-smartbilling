@@ -1,0 +1,43 @@
+<table class="outer" cellspacing="1" width="100%">
+<tr>
+	<td class="head" width="200"><{$smarty.const._CO_SBILLING_INVOICE_NUMBER}></td>
+	<td class="even"><{$smartbilling_invoice.invoice_number}></td>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_FILE}></td>
+	<td class="odd"><{$smartbilling_invoice.invoice_file}></td>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_ACCOUNTID}></td>
+	<td class="even"><{$smartbilling_invoice.accountid}></td>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_DATE}></td>
+	<td class="odd"><{$smartbilling_invoice.date}></td>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_AMOUNT}></td>
+	<td class="even"><{$smartbilling_invoice.amount}> <{$smartbilling_invoice.currency}></td>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_NOTE}></td>
+	<td class="odd"><{$smartbilling_invoice.note}></td>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_STATUS}></td>
+	<{if $smartbilling_invoice.isPaid}>
+		<td class="even" style="background-color: #00AF39; font-weight:bold; color: #fff;"><{$smartbilling_invoice.status}></td>
+	<{else}>
+		<td class="even" style="background-color: #DF0D0D; font-weight:bold; color: #fff;"><{$smartbilling_invoice.status}></td>
+	<{/if}>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_TOTAL_PAID}></td>
+	<td class="odd"><{$smartbilling_invoice.totalPaid}></td>
+</tr>
+<tr>
+	<td class="head"><{$smarty.const._CO_SBILLING_INVOICE_BALANCE}></td>
+	<td class="odd"><{$smartbilling_invoice.balance}></td>
+</tr>
+
+</table>

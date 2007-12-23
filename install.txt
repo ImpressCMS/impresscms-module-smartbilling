@@ -1,0 +1,17 @@
+/**
+* $Id: install.txt,v 1.2 2007/09/28 18:51:14 marcan Exp $
+* Module: SmartBilling
+* Author: The SmartFactory <www.smartfactory.ca>
+* Licence: GNU
+*/
+
+
+How to install SmartBilling
+===========================
+
+SmartBilling is installed as a regular XOOPS module, which means you should copy the complete /class_booking folder into the /modules directory of your website. Then, log in to your site as administrator, go to System Admin > Modules, look for the SmartBilling icon in the list of uninstalled modules and click in the install icon. Follow the directions in the screen and you'll be ready to go.
+
+
+.:: The SmartFactory ::.
+.:: Open Source : smartfactory.ca ::.
+.:: Professionnal : inboxinternational.com ::.

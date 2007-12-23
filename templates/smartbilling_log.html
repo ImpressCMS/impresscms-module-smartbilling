@@ -1,0 +1,14 @@
+<{includeq file='db:smartbilling_header.html'}>
+
+<{if $smartbilling_mylog}>
+	<h2><{$smarty.const._MD_SBILLING_LOG_MYLOG}></h2>
+	
+	<div><{$smartbilling_mylog}></div>
+<{elseif $smartobject_delete_confirm}>
+	<{$smartobject_delete_confirm}>
+<{else}>
+	<{includeq file="db:smartobject_form.html" form=$addlog}>
+<{/if}>
+
+<{includeq file='db:smartbilling_footer.html'}>
+<{includeq file='db:system_notification_select.html'}>
